@@ -11,5 +11,8 @@ def getNonDuplicate(n):
             print("Please enter an integer")
     return result
 
+item = [10,9, 8, 7, 6, 5, 4, 3, 2, 1]
+for key, value in enumerate(item):
+    print(key, value)
 
 print(getNonDuplicate(5))
